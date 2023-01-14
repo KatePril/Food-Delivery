@@ -1,0 +1,110 @@
+@media screen and (min-width: 0px) and (max-width: 426px) {
+    .display_menu {
+        width: 100%;
+        display: flex;
+		justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu_header {
+        background: #fceaaf;
+        width: 90%;
+        padding-top: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 20px;
+    }
+    .menu_header_top {
+        display: flex;
+		justify-content: space-between;
+		align-items: center;
+        width: 100%;
+    }
+    .menu_header_img {
+        width: 40px;
+    }
+    .menu_header_bold{
+        font-weight: bold;
+    }
+    .menu_header_gray{
+        color: #a2a2a2;
+    }
+    .menu_header_user {
+        width: 60px;
+    }
+    .menu_header_adress {
+        display: flex;
+        align-items: center;
+    }
+    .menu_search {
+        margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+    }
+    #search {
+        height: 50px;
+		border-radius: 15px;
+		border: solid #a2a2a2 2px;
+		width: 300px;
+		font-size: 20px;
+    }
+    #menu_header_settings {
+        height: 50px;
+		width: 50px;
+		border-radius: 15px;
+		border: solid #a2a2a2 0px;
+		background: white;
+		box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.25);
+    }
+    .menu_btn_user {
+        background-color: #fceaaf;
+        border: solid 0px;
+        padding: 0;
+    }
+    .menu_main {
+        width: 100%;
+    }
+    .menu_h2 {
+		font-size: 35px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+        margin-left: 20px;
+	}
+    .menu_categories{
+        width: 100%;
+		display: flex;
+		flex-direction: column;
+    }
+    .menu_categories_row {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+        padding-top: 20px;
+	}
+    .menu_categories_last_row_padding {
+        margin-bottom: 85px;
+    }
+    .menu_main_btn {
+        /* text-decoration: none; */
+		display: flex;
+		flex-direction: column;
+        align-items: center;
+        justify-content: center;
+		border-radius: 15px;
+		border: solid #a2a2a2 0px;
+		background: white;
+		box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.25);
+		padding: 5px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+    }
+    .menu_main_img {
+		width: 150px;
+	}
+    .menu_main_span {
+        font-size: 22px;
+		text-align: center;
+    }
+}

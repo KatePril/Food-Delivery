@@ -1,0 +1,122 @@
+@media screen and (min-width: 0px) and (max-width: 426px) {
+    .display_item{
+        background: linear-gradient(0deg, rgba(255,255,255,1) 40%,
+		rgba(252,234,175,1) 60%);
+		margin: 0px;
+    }
+    .item_btn_back {
+		position: fixed;
+		top: 10px;
+		left: 10px;
+        width: 50px;
+		height: 50px;
+		background: white;
+		border: solid 0px;
+		border-radius: 5px;
+		box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+		font-size: 18px;
+	}
+	.item_img {
+		width: 345px;
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.item_main {
+		display: flex;
+        flex-direction: column;
+		justify-content: center;
+        align-items: center;
+	}
+	.item_control_amont {
+		/* width: 96px; */
+		margin-top: 20px;
+		display: flex;
+		flex-direction: row;
+		border-radius: 5px;
+		border: solid #d6d6d6 2px;
+		background: white;
+	}
+	#item_control_btn_less {
+		width: 32px;
+		height: 32px;
+		color: #01977f;
+		font-weight: bold;
+		background: white;
+		font-size: 24px;
+		border-radius: 5px 0px 0px 5px ;
+		border: solid 0px;
+	}
+	#item_control_btn_more {
+		width: 32px;
+		height: 32px;
+		color: #01977f;
+		font-weight: bold;
+		background: white;
+		font-size: 24px;
+		border-radius: 0px 5px 5px 0px ;
+		border: solid 0px;
+	}
+	#item_control_btn_num {
+		width: 32px;
+		height: 32px;
+		font-size: 24px;
+    	text-align: center;
+	}
+    .item_information {
+        margin-left: 20px;
+    }
+	.item_h2 {
+		font-size: 35px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.item_h4 {
+		margin-bottom: 10px;
+	}
+	.item_portion_size {
+		width: 110px;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+	.item_letter {
+		background: white;
+		width: 26px;
+		height: 26px;
+		font-size: 18px;
+		border: solid 1px black;
+		border-radius: 100%;
+		margin-bottom: 70px;
+
+	}
+	.selected {
+		color: #01977f;
+		border: solid 1px #01977f;
+	}
+	.footer_item {
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		background: white;
+		box-shadow: 0px -4px 10px 0px rgba(0,0,0,0.25);
+	}
+	#item_buy_btn {
+		width: 200px;
+		height: 40px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 16px;
+		border-radius: 7px;
+		border: solid 0px;
+		background: #01977f;
+		color: white;
+	}
+	/* #buy:hover {
+		color: #01977f;
+		background: rgba(252,234,175,1);
+	} */
+}
